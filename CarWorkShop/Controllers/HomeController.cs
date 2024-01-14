@@ -22,6 +22,16 @@ namespace CarWorkShop.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            var model = new About()
+            {
+                Title = "Shop Car Support",
+                Description = "If you have some problem, read this",
+                Tags = new[] {"#Shop","#Support","#Car"}
+            };
+            return View(model);
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

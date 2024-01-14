@@ -28,3 +28,4 @@ C:\Users\FeZoX\Desktop\CarWorkShop\CarWorkShop\obj\Debug\net8.0\refint\CarWorkSh
 C:\Users\FeZoX\Desktop\CarWorkShop\CarWorkShop\obj\Debug\net8.0\CarWorkShop.pdb
 C:\Users\FeZoX\Desktop\CarWorkShop\CarWorkShop\obj\Debug\net8.0\CarWorkShop.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\CarWorkShop\CarWorkShop\obj\Debug\net8.0\ref\CarWorkShop.dll
+C:\Users\FeZoX\Desktop\CarWorkShop\CarWorkShop\obj\Debug\net8.0\CarWorkShop.sourcelink.json
