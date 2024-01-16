@@ -10,3 +10,9 @@ C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\ne
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\refint\CarWorkShop.Infrastructure.dll
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\CarWorkShop.Infrastructure.pdb
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\ref\CarWorkShop.Infrastructure.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\bin\Debug\net8.0\CarWorkShop.Infrastructure.runtimeconfig.json
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\bin\Debug\net8.0\CarWorkShop.Domain.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\bin\Debug\net8.0\CarWorkShop.Domain.pdb
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\CarWorkShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\CarWorkShop.Infrastructure.csproj.CopyComplete
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Infrastructure\obj\Debug\net8.0\CarWorkShop.Infrastructure.genruntimeconfig.cache
