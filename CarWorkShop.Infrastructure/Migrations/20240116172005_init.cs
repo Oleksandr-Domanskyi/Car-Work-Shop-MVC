@@ -15,14 +15,13 @@ namespace CarWorkShop.Infrastructure.Migrations
                 name: "CarWorkShops",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ContactDetails_PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ContactDetails_Street = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ContactDetails_Ciry = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ContactDetails_City = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ContactDetails_PostalCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EncodedName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },

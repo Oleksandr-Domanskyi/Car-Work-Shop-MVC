@@ -24,11 +24,9 @@ namespace CarWorkShop.Infrastructure.Migrations
 
             modelBuilder.Entity("CarWorkShop.Domain.Entities.CarWorkShop", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -51,10 +49,10 @@ namespace CarWorkShop.Infrastructure.Migrations
                 {
                     b.OwnsOne("CarWorkShop.Domain.Entities.CarWorkShopContactDetails", "ContactDetails", b1 =>
                         {
-                            b1.Property<int>("CarWorkShopId")
-                                .HasColumnType("int");
+                            b1.Property<Guid>("CarWorkShopId")
+                                .HasColumnType("uniqueidentifier");
 
-                            b1.Property<string>("Ciry")
+                            b1.Property<string>("City")
                                 .HasColumnType("nvarchar(max)");
 
                             b1.Property<string>("PhoneNumber")

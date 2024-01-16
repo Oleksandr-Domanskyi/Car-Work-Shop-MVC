@@ -12,7 +12,7 @@ namespace CarWorkShop.Domain.Entities
 
         public string? PhoneNumber { get; set; }
         public string? Street { get; set; }
-        public string? Ciry { get; set; }
+        public string? City { get; set; }
         public string? PostalCode { get; set; }
 
         
