@@ -1,0 +1,12 @@
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\bin\Debug\net8.0\CarWorkShop.Application.deps.json
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\bin\Debug\net8.0\CarWorkShop.Application.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\bin\Debug\net8.0\CarWorkShop.Application.pdb
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.sourcelink.json
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\refint\CarWorkShop.Application.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.pdb
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\ref\CarWorkShop.Application.dll

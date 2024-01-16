@@ -12,5 +12,8 @@ namespace CarWorkShop.Domain.Entities
         public string? Street { get; set; }
         public string? Ciry { get; set; }
         public string? PostalCode { get; set; }
+
+        
+
     }
 }
