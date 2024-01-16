@@ -26,6 +26,7 @@ namespace CarWorkShop.Infrastructure.Seeders
                         Id = Guid.Parse("44e7a512-d856-472f-8624-3f735b2bbe12"),
                         Name = "Mazda ASO",
                         Description = "Autoryzowany servis Mazda",
+                        About = default,
                         ContactDetails = new Domain.Entities.CarWorkShopContactDetails() 
                         {
                             City = "Rzeszów",

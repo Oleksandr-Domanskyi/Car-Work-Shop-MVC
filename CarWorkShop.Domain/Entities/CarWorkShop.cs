@@ -11,6 +11,7 @@ namespace CarWorkShop.Domain.Entities
         public Guid Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
+        public string? About { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         public CarWorkShopContactDetails ContactDetails { get; set; } = default!;
 
