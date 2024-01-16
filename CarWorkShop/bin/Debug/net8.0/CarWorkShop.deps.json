@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "CarWorkShop/1.0.0": {
+        "dependencies": {
+          "CarWorkShop.Domain": "1.0.0"
+        },
         "runtime": {
           "CarWorkShop.dll": {}
+        }
+      },
+      "CarWorkShop.Domain/1.0.0": {
+        "runtime": {
+          "CarWorkShop.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CarWorkShop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarWorkShop.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

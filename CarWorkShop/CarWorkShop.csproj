@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarWorkShop.Domain\CarWorkShop.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
