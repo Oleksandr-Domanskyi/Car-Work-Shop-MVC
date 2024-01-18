@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4sQRtuNHuRcbbk744zdO0gvePsE5uSpgR6INHfNCjFYVHZwcI0Zbq4SXQazLy7R9nh+zxz/VPyCNMhuRppfAXw==",
+  "dgSpecHash": "ID2b0jQ0IhEKczVnqddVowSq5lujdAjXnYcP5Hac4iAW2KmzGJPjFzVnPHENPSmiXkTMWjOVDJtvii6nHN0Bow==",
   "success": true,
   "projectFilePath": "C:\\Users\\FeZoX\\Desktop\\Car-Work-Shop-MVC\\CarWorkShop\\CarWorkShop.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,9 @@
     "C:\\Users\\FeZoX\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\FeZoX\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\FeZoX\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\FeZoX\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.1\\microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",
