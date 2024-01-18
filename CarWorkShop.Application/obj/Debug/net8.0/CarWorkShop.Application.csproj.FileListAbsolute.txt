@@ -10,3 +10,7 @@ C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\refint\CarWorkShop.Application.dll
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.pdb
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\ref\CarWorkShop.Application.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\bin\Debug\net8.0\CarWorkShop.Domain.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\bin\Debug\net8.0\CarWorkShop.Domain.pdb
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop.Application\obj\Debug\net8.0\CarWorkShop.Application.csproj.CopyComplete

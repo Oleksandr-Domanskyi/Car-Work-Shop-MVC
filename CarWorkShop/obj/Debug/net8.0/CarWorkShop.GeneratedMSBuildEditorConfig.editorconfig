@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/FeZoX/Desktop/Car-Work-Shop-MVC/CarWorkShop/Views/CarWorkShop/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyV29ya1Nob3BcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FeZoX/Desktop/Car-Work-Shop-MVC/CarWorkShop/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
