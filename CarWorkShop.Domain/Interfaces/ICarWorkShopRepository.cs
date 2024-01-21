@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarWorkShop.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,6 @@ namespace CarWorkShop.Domain.Interfaces
         Task Create(Domain.Entities.CarWorkShop carWorkShop);
         Task<Domain.Entities.CarWorkShop?> GetByName(string name);
         Task<IEnumerable<Domain.Entities.CarWorkShop?>> GetAll();
+        Task<Domain.Entities.CarWorkShop?> GetByEncodedName(string encodedName);
     }
 }
