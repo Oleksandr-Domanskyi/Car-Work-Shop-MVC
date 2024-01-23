@@ -6,7 +6,7 @@ using CarWorkShop.Application.Extentions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 
 //Extentions
 builder.Services.AddIfrastructure(builder.Configuration);
