@@ -27,7 +27,7 @@ namespace CarWorkShop.Application.Commands.CreateCarWorkShop
             var carWorkShop = _mapper.Map<Domain.Entities.CarWorkShop>(request);
             carWorkShop.EncodeName();
 
-            carWorkShop.CreatedById = _userContext.GetCurrentUser().Id;
+            carWorkShop.CreatedById = _userContext.GetCurrentUser()?.Id;
 
             await _carWorkShopRepository.Create(carWorkShop);
 

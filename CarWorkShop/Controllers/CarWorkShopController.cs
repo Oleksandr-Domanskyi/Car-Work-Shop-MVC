@@ -48,6 +48,12 @@ namespace CarWorkShop.Controllers
         public async Task<IActionResult> Edit(string encodedName)
         {
             var dto = await _mediator.Send(new GetCarWorkShopByEncodedNameQuery(encodedName));
+
+            if (!dto.IsEditable)
+            {
+                return View(nameof(NoAcces));
+            }
+
             EditCarWorkShopCommand model = _mapper.Map<EditCarWorkShopCommand>(dto);
 
             return View(model);
@@ -70,6 +76,10 @@ namespace CarWorkShop.Controllers
             var dto = await _mediator.Send(new GetCarWorkShopByEncodedNameQuery(encodedName));
             return View(dto);
         }
-       
+        public IActionResult NoAcces()
+        {
+            return View();
+        }
+
     }
 }

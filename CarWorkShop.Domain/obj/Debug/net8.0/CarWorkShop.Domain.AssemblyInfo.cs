@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarWorkShop.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbd900dd98481bf19efc8c9f5b5959853df3a7c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd52db9a339e729c1163ebd9dcf668bc8835fba1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarWorkShop.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarWorkShop.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

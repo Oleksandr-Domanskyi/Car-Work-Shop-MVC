@@ -17,6 +17,7 @@ namespace CarWorkShop.Controllers
         {
             return View();
         }
+      
 
         public IActionResult Privacy()
         {
