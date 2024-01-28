@@ -1,4 +1,5 @@
-﻿using CarWorkShop.Application.Commands.CreateCarWorkShop;
+﻿using CarWorkShop.Application.ApplicationUser;
+using CarWorkShop.Application.Commands.CreateCarWorkShop;
 using CarWorkShop.Application.Mapping;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -23,6 +24,8 @@ namespace CarWorkShop.Application.Extentions
             services.AddValidatorsFromAssemblyContaining<CreateCarWorkShopCommandValidatior>()
                 .AddFluentValidationAutoValidation()
                 .AddFluentValidationClientsideAdapters();
+
+            services.AddScoped<IUserContext, UserContext>();
         }
     }
 }

@@ -306,3 +306,10 @@ C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\runtimes\w
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\MediatR.dll
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

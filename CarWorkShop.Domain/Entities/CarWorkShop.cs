@@ -12,6 +12,10 @@ namespace CarWorkShop.Domain.Entities
         public string Name { get; set; } = default!;
         public string? Description { get; set; }
         public string? About { get; set; }
+
+        public string? CreatedById { get; set; }
+        public Microsoft.AspNetCore.Identity.IdentityUser? CreatedBy { get; set; }
+
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         public CarWorkShopContactDetails ContactDetails { get; set; } = default!;
 
