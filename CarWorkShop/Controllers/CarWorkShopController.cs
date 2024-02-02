@@ -27,10 +27,10 @@ namespace CarWorkShop.Controllers
             var CarWorkShops = await _mediator.Send(new GetAllCarWorkShopsQuery());
             return View(CarWorkShops);
         }
-        [Authorize]
+        [Authorize(Roles ="Owner")]
         public IActionResult Create()
         {
-            
+
             return View();
         }
         [Authorize]

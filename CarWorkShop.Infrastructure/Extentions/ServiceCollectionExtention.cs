@@ -22,6 +22,7 @@ namespace CarWorkShop.Infrastructure.Extentions
                 options.UseSqlServer(configuration.GetConnectionString("CarWorkShopConnectionString")));
 
             services.AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<CarWorkShopDbContext>();
 
             services.AddScoped<CarWorkShopSeeder>();
