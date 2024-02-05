@@ -1,4 +1,4 @@
-﻿using CarWorkShop.Application.DataTranferObject;
+﻿using CarWorkShop.Application.CarWorkShop.DataTranferObject;
 using MediatR;
 using System;
 using System.Collections.Generic;

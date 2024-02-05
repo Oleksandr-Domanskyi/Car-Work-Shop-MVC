@@ -54,6 +54,32 @@ namespace CarWorkShop.Infrastructure.Migrations
                     b.ToTable("CarWorkShops");
                 });
 
+            modelBuilder.Entity("CarWorkShop.Domain.Entities.CarWorkShopService", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("CarWorkShopId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Coast")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarWorkShopId");
+
+                    b.ToTable("Services");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -293,6 +319,17 @@ namespace CarWorkShop.Infrastructure.Migrations
                     b.Navigation("CreatedBy");
                 });
 
+            modelBuilder.Entity("CarWorkShop.Domain.Entities.CarWorkShopService", b =>
+                {
+                    b.HasOne("CarWorkShop.Domain.Entities.CarWorkShop", "CarWorkShop")
+                        .WithMany("Services")
+                        .HasForeignKey("CarWorkShopId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CarWorkShop");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -342,6 +379,11 @@ namespace CarWorkShop.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("CarWorkShop.Domain.Entities.CarWorkShop", b =>
+                {
+                    b.Navigation("Services");
                 });
 #pragma warning restore 612, 618
         }

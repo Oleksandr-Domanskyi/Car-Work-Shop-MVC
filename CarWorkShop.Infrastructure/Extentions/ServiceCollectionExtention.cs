@@ -26,7 +26,9 @@ namespace CarWorkShop.Infrastructure.Extentions
                 .AddEntityFrameworkStores<CarWorkShopDbContext>();
 
             services.AddScoped<CarWorkShopSeeder>();
+
             services.AddScoped<ICarWorkShopRepository,CarWorkShopRepositories>();
+            services.AddScoped<ICarWorkShopServicesRepository, CarWorkShopServiceRepository>();
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using CarWorkShop.Application.DataTranferObject;
+using CarWorkShop.Application.CarWorkShop.DataTranferObject;
 using CarWorkShop.Domain.Interfaces;
 using MediatR;
 using System;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CarWorkShop.Application.Commands.Queries.GetAllCarWorkShops
 {
-   
+
     public class GetAllCarWorkShopsQueryHandler:IRequestHandler<GetAllCarWorkShopsQuery,IEnumerable<CarWorkShopObject>>
     {
         private readonly ICarWorkShopRepository _carWorkShopRepository;

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CarWorkShop.Application.ApplicationUser;
 using CarWorkShop.Application.CarWorkShop.Commands.EditCarWorkShop;
+using CarWorkShop.Application.CarWorkShopService.DataTransferObject;
 using CarWorkShop.Application.DataTranferObject;
 using CarWorkShop.Domain.Entities;
 using System;
@@ -34,6 +35,9 @@ namespace CarWorkShop.Application.Mapping
                 .ForMember(dto => dto.PostalCode, opt => opt.MapFrom(src => src.ContactDetails.PostalCode));
 
             CreateMap<CarWorkShopObject, EditCarWorkShopCommand>();
+
+            CreateMap<CarWorkShopServiceObject, Domain.Entities.CarWorkShopService>()
+                .ReverseMap();
 
         }
     }
