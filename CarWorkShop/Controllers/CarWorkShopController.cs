@@ -5,9 +5,12 @@ using CarWorkShop.Application.CarWorkShop.Queries.GetCarWorkShopByEncodedName;
 using CarWorkShop.Application.Commands.CreateCarWorkShop;
 using CarWorkShop.Application.Commands.Queries.GetAllCarWorkShops;
 using CarWorkShop.Application.DataTranferObject;
+using CarWorkShop.Extentions;
+using CarWorkShop.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace CarWorkShop.Controllers
 {
@@ -27,7 +30,7 @@ namespace CarWorkShop.Controllers
             var CarWorkShops = await _mediator.Send(new GetAllCarWorkShopsQuery());
             return View(CarWorkShops);
         }
-        [Authorize(Roles ="Owner")]
+        [Authorize]
         public IActionResult Create()
         {
 
@@ -41,7 +44,10 @@ namespace CarWorkShop.Controllers
             {
                 return View(command);
             }
-            await _mediator.Send(command);
+            //await _mediator.Send(command);
+
+            this.SetNotification("success", $"Created carworkshop: {command.Name}");
+
             return RedirectToAction(nameof(Index));
         }
         [Route("CarWorkShop/{encodedName}/Edit")]

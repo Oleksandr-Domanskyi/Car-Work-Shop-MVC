@@ -313,3 +313,4 @@ C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\obj\Debug\net8.0\staticweba
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\obj\Debug\net8.0\scopedcss\bundle\CarWorkShop.styles.css
 C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\obj\Debug\net8.0\scopedcss\projectbundle\CarWorkShop.bundle.scp.css
+C:\Users\FeZoX\Desktop\Car-Work-Shop-MVC\CarWorkShop\bin\Debug\net8.0\libman.json
