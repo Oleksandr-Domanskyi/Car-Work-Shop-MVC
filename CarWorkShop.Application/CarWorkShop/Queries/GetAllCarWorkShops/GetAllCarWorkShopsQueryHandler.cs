@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using CarWorkShop.Application.CarWorkShop.DataTranferObject;
+using CarWorkShop.Application.DataTranferObject;
 using CarWorkShop.Domain.Interfaces;
 using MediatR;
 using System;
